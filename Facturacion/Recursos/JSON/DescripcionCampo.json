@@ -1,0 +1,9 @@
+{"DescripcionCampo":
+    [
+        {"desc":"Anula Documento de Referencia","value":"01"},
+        {"desc":"Corrige monto","value":"02"},
+        {"desc":"Referencia a otro documento","value":"04"},
+        {"desc":"Sustituye comprobante provisional por contingencia","value":"05"},
+        {"desc":"Otros","value":"99"}
+    ]
+}

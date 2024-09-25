@@ -1,0 +1,16 @@
+{"condicionVenta":
+    [
+        {"desc":"Contado","value":"01"},
+        {"desc":"Crédito","value":"02"},
+        {"desc":"Consignación","value":"03"},
+        {"desc":"Apartado","value":"04"},
+        {"desc":"Arrendamiento con opción de compra","value":"05"},
+        {"desc":"Arrendamiento en función financiera","value":"06"},
+        {"desc":"Cobro a favor de un tercero","value":"07"},
+        {"desc":"Servicios prestados al Estado a crédito","value":"08"},
+        {"desc":"Pago del servicios prestado al Estado","value":"09"},
+        {"desc":"Venta a crédito en IVA hasta 90 días (Artículo 27, LIVA)","value":"10"},
+        {"desc":"Pago de venta a crédito en IVA hasta 90 días(Artículo 27, LIVA)","value":"11"},
+        {"desc":"otros (se debe indicar la condición de la venta)","value":"99"}
+    ]
+}

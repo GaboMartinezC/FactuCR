@@ -1,0 +1,20 @@
+{"TipoDocReferencia":
+    [
+        {"desc":"Factura electrónica","value":"01"},
+        {"desc":"Nota de débito electrónica","value":"02"},
+        {"desc":"Nota de crédito electrónica","value":"03"},
+        {"desc":"Tiquete electrónico","value":"04"},
+        {"desc":"Nota de despacho","value":"05"},
+        {"desc":"Contrato","value":"06"},
+        {"desc":"Procedimiento","value":"07"},
+        {"desc":"Comprobante emitido en contingencia","value":"08"},
+        {"desc":"Devolución mercadería","value":"09"},
+        {"desc":"Sustituye factura rechazada por el Ministerio de Hacienda ","value":"10"},
+        {"desc":"Sustituye factura rechazada por el Receptor del comprobante","value":"11"},
+        {"desc":"Sustituye Factura de exportación","value":"12"},
+        {"desc":"Facturación mes vencido ","value":"13"},
+        {"desc":"Comprobante aportado por contribuyente del Régimen de Tributación Simplificado","value":"14"},
+        {"desc":"Sustituye una Factura electrónica de Compra","value":"15"},
+        {"desc":"Otros","value":"99"}
+    ]
+}

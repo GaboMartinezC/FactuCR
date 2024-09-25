@@ -1,0 +1,10 @@
+{"MediosDePago":
+    [
+        {"desc":"Efectivo","value":"01"},
+        {"desc":"Tarjeta","value":"02"},
+        {"desc":"Cheque","value":"03"},
+        {"desc":"Transferencia – depósito bancario","value":"04"},
+        {"desc":"Recaudado por terceros","value":"05"},
+        {"desc":"Otros (se debe indicar el medio de pago)","value":"99"}
+    ]
+}

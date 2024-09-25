@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+:root{
+    --fondoClaro: #E9E9E9;
+    --colorPrimario400: #4B7759;
+    --colorPrimario500: #41684E;
+    --colorPrimario600: #355540;
+    --colorPrimario700: #2B4534;
+    --colorPrimario800: #213528;
+    --colorPrimario900: #18261C;
+    --fuente: "League Spartan";
+}
+
+body{
+    display: flex;
+    padding: 0 !important;
+    background-color: var(--fondoClaro);
+}
+
+.fTexto{
+    font-family: var(--fuente), sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 125%;
+}
+.fSubtítulo{
+    font-family: var(--fuente), sans-serif;
+    font-size: 32px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    line-height: 1;
+}
+.fSubtitulo-2{
+    font-family: var(--fuente), sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+/*
+
+Botones
+ - Para usar un botón se usa la clase btn y para modificarlo se aplica
+ alguna de las otras clases, pero con la clase btn ya aplicada
+
+*/
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: .6rem 1rem ;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-radius: .5rem;
+    color: #fff;
+    background-color: #000;
+    font-family: var(--fuente), sans-serif;
+    font-size: 1rem;
+}
+.btn:hover, .btn:focus{
+    cursor: pointer;
+    color: var(--fondoClaro) !important;
+    background-color: #494949 !important;
+}
+.btn:active{
+    background-color: #292929 !important;
+}
+
+.btn-primary{
+    background-color: var(--colorPrimario500) !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: var(--colorPrimario600) !important;
+}
+.btn-primary:active{
+    background-color: var(--colorPrimario800)  !important;
+}
+.btn-primary:disabled{
+    background-color: var(--colorPrimario500)  !important;
+    opacity: .4;
+}
+
+.btn-secondary{
+    background-color: var(--colorPrimario500) !important;
+}
+
+.btn-secondary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: var(--colorPrimario600) !important;
+}
+.btn-secondary:active{
+    background-color: var(--colorPrimario800)  !important;
+}
+.btn-secondary:disabled{
+    background-color: var(--colorPrimario500)  !important;
+    opacity: .4;
+}
+
+
+/*
+Navbar
+ */
+.sidebar{
+    position: relative;
+    --margin: .3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .2rem;
+    justify-content: start;
+    margin: var(--margin);
+    height: calc(99dvh - var(--margin));
+    border: 1px solid #00000030;
+    border-radius: 1rem;
+    padding: .6rem .8rem;
+    font-family: var(--fuente), sans-serif;
+    color: black;
+}
+
+.sidebar-header{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    gap: .7rem;
+    padding: .6rem .6rem;
+    padding-block-end:1.2rem;
+}
+.sidebar-header svg{
+    width: 70%;
+}
+
+.sidebar-item{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    border-radius: .5rem;
+    gap: .7rem;
+    font-size: 1.1rem;
+    padding: .6rem 1rem;
+}
+.sidebar-item:hover, .sidebar-item:focus{
+    cursor: pointer;
+    background-color: lightgray;
+}
+.sidebar-item svg{
+    width: 20px;
+    aspect-ratio: 4/4;
+}
+
+/*
+ComboBox
+*/
+input{
+    font-family: var(--fuente), sans-serif;
+    height: 2.5rem;
+    border: 1px solid #00000030;
+    border-radius: .5rem;
+    padding: .5rem .65rem;
+}
+
+select{
+    height: calc(1rem + 24px);
+    padding: .5rem .65rem;
+    border-radius: .5rem;
+    border:  1px solid #00000030;
+    background-color: white;
+    font-family: var(--fuente), sans-serif;
+}
+select option span{
+    font-family: var(--fuente), sans-serif;
+    line-height: 150%;
+
+}
+
+/*
+Etiqueta a
+*/
+a, a span
+{
+    color: black !important;
+}
+.card-filtr {
+    border-radius: 40px;
+    border: 1px solid #4B7759;
+    display: block;
+}
+.card-filtr:hover {
+    background-color: #4B7759;
+    color: #EEEEEE;
+}

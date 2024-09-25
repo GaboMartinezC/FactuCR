@@ -1,0 +1,13 @@
+{"TarifaIVA":
+    [
+        {"desc":"Tarifa 0% (Exento)","value":"01"},
+        {"desc":"Tarifa reducida 1%","value":"02"},
+        {"desc":"Tarifa reducida 2%","value":"03"},
+        {"desc":"Tarifa reducida 4%","value":"04"},
+        {"desc":"Transitorio 0%","value":"05"},
+        {"desc":"Transitorio 4%","value":"06"},
+        {"desc":"Transitorio 8%","value":"07"},
+        {"desc":"Tarifa general 13%","value":"08"},
+        {"desc":"Tarifa reducida 0.5%","value":"09"}
+    ]
+}

@@ -1,0 +1,120 @@
+[
+    {"provincia":"San José","value":"1","cantones":
+        [
+            {"canton": "San José","value":"01","distritos":
+                [
+                    {"distrito": "Carmen","value": "01","barrios":
+                        [
+                            {"barrio": "SAN JOSÉ (parte)","value": "01"},
+                            {"barrio": "Amón","value": "02"},
+                            {"barrio": "Aranjuez","value": "03"},
+                            {"barrio": "California (parte)","value": "04"},
+                            {"barrio": "Carmen","value": "05"},
+                            {"barrio": "Empalme","value": "06"},
+                            {"barrio": "Escalante","value": "07"},
+                            {"barrio": "Otoya","value": "08"}
+                        ]
+                    },
+                    {"distrito": "Merced","value": "02","barrios":
+                        [
+                            {"barrio": "SAN JOSÉ (parte)","value": "01"},
+                            {"barrio": "Bajos de la Unión","value": "02"},
+                            {"barrio": "Claret","value": "03"},
+                            {"barrio": "Cocacola","value": "04"},
+                            {"barrio": "Iglesias Flores","value": "05"},
+                            {"barrio": "Mantica","value": "06"},
+                            {"barrio": "México","value": "07"},
+                            {"barrio": "Paso de la Vaca","value": "08"},
+                            {"barrio": "Pitahaya    ","value": "09"}
+                        ]
+                    }
+                ]
+
+            }
+        ]
+    },
+    {"provincia":"Alajuela","value":"2","cantones":
+        [
+            {"canton": "San José","value":"01","distritos":
+                [
+                    {"distrito": "Carmen","value": "01","barrios":
+                        [
+                            {"barrio": "SAN JOSÉ (parte)","value": "01"}
+                        ]
+                    }
+                ]
+
+            }
+        ]
+    },
+    {"provincia":"Cartago","value":"3","cantones":
+        [
+            {"canton": "San José","value":"01","distritos":
+                [
+                    {"distrito": "Carmen","value": "01","barrios":
+                        [
+                            {"barrio": "SAN JOSÉ (parte)","value": "01"}
+                        ]
+                    }
+                ]
+
+            }
+        ]
+    },
+    {"provincia":"Heredia","value":"4","cantones":
+        [
+            {"canton": "San José","value":"01","distritos":
+                [
+                    {"distrito": "Carmen","value": "01","barrios":
+                        [
+                            {"barrio": "SAN JOSÉ (parte)","value": "01"}
+                        ]
+                    }
+                ]
+
+            }
+        ]
+    },
+    {"provincia":"Guanacaste","value":"5","cantones":
+        [
+            {"canton": "San José","value":"01","distritos":
+                [
+                    {"distrito": "Carmen","value": "01","barrios":
+                        [
+                            {"barrio": "SAN JOSÉ (parte)","value": "01"}
+                        ]
+                    }
+                ]
+
+            }
+        ]
+    },
+    {"provincia":"Puntarenas","value":"6","cantones":
+        [
+            {"canton": "San José","value":"01","distritos":
+                [
+                    {"distrito": "Carmen","value": "01","barrios":
+                        [
+                            {"barrio": "SAN JOSÉ (parte)","value": "01"}
+                        ]
+                    }
+                ]
+
+            }
+        ]
+    },
+    {"provincia":"Limón","value":"7","cantones":
+        [
+            {"canton": "San José","value":"01","distritos":
+                [
+                    {"distrito": "Carmen","value": "01","barrios":
+                        [
+                            {"barrio": "SAN JOSÉ (parte)","value": "01"}
+                        ]
+                    }
+                ]
+
+            }
+        ]
+    }
+]

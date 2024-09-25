@@ -1,0 +1,12 @@
+{"TipoDocExoneracion":
+    [
+        {"desc":"Compras autorizadas","value":"01"},
+        {"desc":"Ventas exentas a diplomáticos","value":"02"},
+        {"desc":"Autorizado por Ley especial","value":"03"},
+        {"desc":"Exenciones Dirección General de Hacienda","value":"04"},
+        {"desc":"Transitorio V","value":"05"},
+        {"desc":"Transitorio IX","value":"06"},
+        {"desc":"Transitorio XVII","value":"07"},
+        {"desc":"Otros","value":"99"}
+    ]
+}
